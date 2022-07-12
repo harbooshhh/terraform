@@ -5,6 +5,8 @@ terraform {
       version = "4.22.0"
     }
   }
+  
+  backend "remote" {}
 }
 
 provider "aws" {
